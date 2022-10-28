@@ -1,0 +1,8 @@
+{
+  "name": "compass-front-challenge-twitterWeb",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ranniarcanjo/compass-front-challenge-twitterWeb.git",
+  "author": "Ranni Arcanjo <ranniarcanjo@gmail.com>",
+  "license": "MIT"
+}
