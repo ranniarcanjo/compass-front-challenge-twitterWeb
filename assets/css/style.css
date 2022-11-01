@@ -126,6 +126,44 @@ body{
     cursor: pointer;
 }
 
+.acount-menu{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 8rem;
+    padding: 2rem 0;
+}
+
+.acount-user{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.user-name-email h4{
+    color: var(--black);
+    font-weight: 700;
+    margin-bottom: .5rem;
+}
+
+.user-name-email p{
+    color: var(--dark-five);
+}
+
+.acount-more{
+    width: 3.3rem;
+    height: 3.3rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.acount-more:hover{
+    background: var(--dark-seven);
+    border-radius: 5rem;
+}
+
 /* Main **************************************************************************************/
 .container-timeline{
     position: relative;
