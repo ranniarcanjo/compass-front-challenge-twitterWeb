@@ -95,13 +95,56 @@
             </div>
           </div>
 
-          <form action="#" class="timeline-form">
-            <textarea
-              name="textoTweet"
-              placeholder="What's happening?"
-            ></textarea>
-            <button type="submit">Tweet</button>
-          </form>
+          <section class="container-form-tweet">
+            <div class="img-form-tweet">
+                <img src="./assets/img/user-acount.png" alt="">
+            </div>
+            
+            <div class="form-tweet">
+                <form action="#" class="timeline-form">
+                    <div class="input-area">
+                        <textarea name="textoTweet" placeholder="What's happening?"></textarea>
+                    </div>
+                    <div class="icons-buttons">
+                        <nav class="icons">
+                            <ul>
+                                <li>
+                                    <button>
+                                        <img src="./assets/img/icon-form-image.png" alt="">
+                                    </button>
+                                </li>
+                                <li>
+                                    <button>
+                                        <img src="./assets/img/icon-form-gif.png" alt="">
+                                    </button>
+                                </li>
+                                <li>
+                                    <button>
+                                        <img src="./assets/img/icon-form-bars.png" alt="">
+                                    </button>
+                                </li>
+                                <li>
+                                    <button>
+                                        <img src="./assets/img/icon-form-emoje.png" alt="">
+                                    </button>
+                                </li>
+                                <li>
+                                    <button>
+                                        <img src="./assets/img/icon-form-calendar.png" alt="">
+                                    </button>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="buttons">
+                            <button class="add">+</button>
+                            <button type="submit">Tweet</button>
+                        </div>
+                    </div>
+                  </form>
+            </div>
+            
+          </section>
+          
 
           <section class="timeline-feed">
             <ul class="timeline-tweets">
@@ -290,110 +333,67 @@
 
         <!-- Aside Right -->
         <aside class="container-aside">
-          <input type="text" placeholder="Search Twitter" class="aside" />
+            <input type="text" placeholder= "Search Twitter" class="aside-search" />
+    
+            <!-- aside-news -->
+            <section class="aside-news">
+                
+                <h2 class="aside-title">What's happening</h2>
+                
+                <div class="news">
+                    <div class="news-left">
+                        <p class="title-news">COVID19 . Last night</p>
+                        <h3 class="text-news">
+                            England’s Chief Medical Officer says the UK is at the most dangerous time of the pandemic
+                        </h3>
+                        <div class="trending-news">
+                            <p>Trending with <span>#covid19</span></p>
+                        </div>
+                    </div>
 
-          <!-- aside-news -->
-          <section>
-            <h2>What's happening</h2>
-            <div>
-              <div>
-                <p>COVID19 . Last night</p>
-                <h3>
-                  England's Chief Medical Officer says the UK is at the most
-                  dangerous time of the pandemic
-                </h3>
-              </div>
-              <div>
-                <p>Trending with</p>
-                <p>#covid19</p>
-              </div>
-            </div>
-            <div>
-              <figure>
-                <img src="./assets/img/news-one.png" class="" alt="medic" />
-              </figure>
-            </div>
-            <div>
-              <div>
-                <p>US news . 4h ago</p>
-                <h3>
-                  Parler may go offline following suspensions by Amazon, Apple
-                  and Google
-                </h3>
-              </div>
-              <div>
-                <p>Trending with</p>
-                <p>#trump</p>
-              </div>
-            </div>
-            <div>
-              <figure>
-                <img src="./assets/img/news-two.png" class="" alt="tecnology" />
-              </figure>
-            </div>
-            <div>
-              <div>
-                <p>India . 1h ago</p>
-                <h3>
-                  India vs Australia: India hold on to earn a draw on Day 5 in
-                  Sydney Test
-                </h3>
-              </div>
-              <div>
-                <p>Trending with</p>
-                <p>#sport</p>
-              </div>
-            </div>
-            <div>
-              <figure>
-                <img src="./assets/img/news-tree.png" class="" alt="sport" />
-              </figure>
-            </div>
-            <div>
-              <p>Show more</p>
-            </div>
-          </section>
+                    <figure class="news-img">
+                        <img src="./assets/img/news-one.png" class="" alt="sport" />
+                    </figure>
+                </div>
 
-          <!-- aside-follow -->
-          <section>
-            <h2>Who to follow</h2>
-            <div>
-              <figure>
-                <img
-                  src="./assets/img/avatar-follow-one.png"
-                  class="follow"
-                  alt="Bessie Cooper"
-                />
-              </figure>
-              <h3>Bessie Cooper</h3>
-              <p>@alessandroveronezi</p>
-              <button type="submit" class="">Follow</button>
-            </div>
-            <div>
-              <figure>
-                <img
-                  src="./assets/img/avatar-follow-two.png"
-                  class="follow"
-                  alt="Jenny Wilson"
-                />
-              </figure>
-              <h3>Jenny Wilson</h3>
-              <p>@gabrielcantarin</p>
-              <button type="submit" class="">Follow</button>
-            </div>
-            <div>
-              <p>Show more</p>
-            </div>
-          </section>
+                <div class="news">
+                    <div class="news-left">
+                        <p class="title-news">COVID19 . Last night</p>
+                        <h3 class="text-news">
+                            Parler may go offline following suspensions by Amazon, Apple and Google
+                        </h3>
+                        <div class="trending-news">
+                            <p>Trending with <span>#covid19</span></p>
+                        </div>
+                    </div>
 
-          <!-- Aside-nav-footer -->
-          <section>
-            <p>
-              Terms of Service Privacy Policy Cookie Policy Ads info More © 2021
-              Twitter, Inc.
-            </p>
-          </section>
-        </aside>
+                    <figure class="news-img">
+                        <img src="./assets/img/news-two.png" class="" alt="sport" />
+                    </figure>
+                </div>
+
+                <div class="news">
+                    <div class="news-left">
+                        <p class="title-news">COVID19 . Last night</p>
+                        <h3 class="text-news">
+                            India vs Australia: India hold on to earn a draw on Day 5 in Sydney Test
+                        </h3>
+                        <div class="trending-news">
+                            <p>Trending with <span>#covid19</span></p>
+                        </div>
+                    </div>
+
+                    <figure class="news-img">
+                        <img src="./assets/img/news-tree.png" class="" alt="sport" />
+                    </figure>
+                </div>
+
+
+                
+                <div class="show-more">
+                    <p>Show more</p>
+                </div>
+            </section>
       </div>
       <footer class="container-footer">
         <div class="footer-text">
