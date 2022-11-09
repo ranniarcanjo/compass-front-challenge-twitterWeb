@@ -1,6 +1,6 @@
 # compass-front-challenge-twitterWeb
 Fifth front-end challenge Compass Uol
-Desafio Sprint 5
+Desafio Sprint 6
 
  
 
@@ -8,8 +8,12 @@ Figma:  UI Twitter Web (Community) – Figma
 
  
 
-Desenvolvimento: html, css (sass), Tyoescript e storybook
+Desenvolvimento: html, css (sass), Typescript, React e storybook
 
- 
+ Segunda fase:
 
-![page-twitter](https://user-images.githubusercontent.com/88867271/200885689-57129ea1-ffc6-4e36-85f7-a9d0a1030650.png)
+
+
+![page-twitter-login](https://user-images.githubusercontent.com/88867271/200886610-ab2677c8-986c-489c-b022-cb1c87e05274.png)
+
+![page-twitter-profile](https://user-images.githubusercontent.com/88867271/200886650-8be2e5aa-35c9-46b3-a7d8-76e649a750f5.png)
