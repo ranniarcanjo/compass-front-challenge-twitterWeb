@@ -8,35 +8,36 @@
     <title>Login Twiter Webs</title>
 </head>
 <body>
-    <section class="container-login">
-            
-        <div class="login-text">
-            <img src="/assets/img/logo-twiter.png">
-            <h1>Log in to Twitter</h1>
-        </div>
-
-        <div class="form-login">
-            <form id="form-login">
-                <div class="input">
-                    <label for="username"></label>
-                    <input class="field" type="text" name="username" id="username" autocomplete="false" placeholder="Phone number, email address">
-                </div>
-
-                <div class="input">
-                    <label for="password"></label>
-                    <input class="field" type="password" name="password" id="password" placeholder="Password">
-                </div>
-
-                <div class="input">
-                    <button class="btn btn-login" type="submit">Log In</button>
-                </div>
-                <div>
-                    <p>Forgot password?</p>
-                    <p>Sign up to Twitter</p>
-                </div>
-            </form>
-        </div>
-    </section>
+    <main class="container-page">
+        <section class="container-login">
+            <div class="login-text">
+                <img src="/assets/img/logo-twiter.png">
+                <h1>Log in to Twitter</h1>
+            </div>
     
+            <div class="form-login">
+                <form id="form-login">
+                    <div class="field">
+                        <label for="username"></label>
+                        <input class="input" type="text" name="username" id="username" autocomplete="false" placeholder="Phone number, email address">
+                    </div>
+    
+                    <div class="field">
+                        <label for="password"></label>
+                        <input class="input" type="password" name="password" id="password" placeholder="Password">
+                    </div>
+    
+                    <div class="field">
+                        <button class="btn btn-login" type="submit">Log In</button>
+                    </div>
+
+                    <div class="text-forgot">
+                        <a href="#">Forgot password?</a>
+                        <a href="#">Sign up to Twitter</a>
+                    </div>
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
